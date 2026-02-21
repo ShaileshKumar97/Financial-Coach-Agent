@@ -1,0 +1,15 @@
+langchain
+langchain-openai
+langgraph
+livekit
+livekit-agents
+livekit-plugins-cartesia
+livekit-plugins-deepgram
+livekit-plugins-noise-cancellation
+livekit-plugins-openai
+numpy
+openai
+pandas
+pydantic
+python-dotenv
+typing-extensions

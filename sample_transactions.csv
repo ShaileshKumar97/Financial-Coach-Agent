@@ -1,0 +1,243 @@
+date,amount,category,description,type,account_type
+2025-08-25 16:19:20.198497,2250.0,income,Salary deposit,credit,checking
+2025-08-25 16:19:20.198497,-104.79304550637058,groceries,Grocery shopping,debit,checking
+2025-08-25 16:19:20.198497,-52.95358630532516,fuel,Gas,debit,checking
+2025-08-26 16:19:20.198497,-1200.0,rent,Monthly rent,debit,checking
+2025-08-26 16:19:20.198497,-51.30486051629747,fuel,Gas,debit,checking
+2025-08-27 16:19:20.198497,-22.58503178114916,dining,Dining out,debit,checking
+2025-08-28 16:19:20.198497,-54.33883337372459,dining,Dining out,debit,checking
+2025-08-30 16:19:20.198497,-350.0,loan_payment,Car loan,debit,checking
+2025-08-30 16:19:20.198497,-63.715887285554544,fuel,Gas,debit,checking
+2025-08-30 16:19:20.198497,-67.37653494676863,utilities,Water,debit,checking
+2025-08-31 16:19:20.198497,-18.609870930003453,dining,Dining out,debit,checking
+2025-08-31 16:19:20.198497,-36.604965836149134,shopping,Shopping,debit,checking
+2025-09-01 16:19:20.198497,-112.07074531644753,groceries,Grocery shopping,debit,checking
+2025-09-01 16:19:20.198497,-64.80728251081061,utilities,Internet,debit,checking
+2025-09-02 16:19:20.198497,-57.198936635052895,dining,Dining out,debit,checking
+2025-09-04 16:19:20.198497,-240.06020711122778,credit_card_payment,Credit card payment,debit,checking
+2025-09-04 16:19:20.198497,-43.920821201305515,dining,Dining out,debit,checking
+2025-09-05 16:19:20.198497,-50.93099352293742,dining,Dining out,debit,checking
+2025-09-05 16:19:20.198497,-125.41992691743442,utilities,Electricity,debit,checking
+2025-09-05 16:19:20.198497,-99.60488154849753,shopping,Shopping,debit,checking
+2025-09-06 16:19:20.198497,-52.59050058799727,fuel,Gas,debit,checking
+2025-09-06 16:19:20.198497,-41.22847026501814,fuel,Gas,debit,checking
+2025-09-07 16:19:20.198497,-48.39747268116726,fuel,Gas,debit,checking
+2025-09-08 16:19:20.198497,-137.66825784185966,groceries,Grocery shopping,debit,checking
+2025-09-08 16:19:20.198497,-98.89920803991724,shopping,Shopping,debit,checking
+2025-09-09 16:19:20.198497,-120.0,insurance,Car insurance,debit,checking
+2025-09-09 16:19:20.198497,-21.325687460553223,dining,Dining out,debit,checking
+2025-09-11 16:19:20.198497,-33.95339443319001,dining,Dining out,debit,checking
+2025-09-12 16:19:20.198497,-50.55509415412808,fuel,Gas,debit,checking
+2025-09-14 16:19:20.198497,-52.012516082859065,fuel,Gas,debit,checking
+2025-09-14 16:19:20.198497,-19.53692163430346,dining,Dining out,debit,checking
+2025-09-14 16:19:20.198497,-60.387092883442286,fuel,Gas,debit,checking
+2025-09-15 16:19:20.198497,-128.50372605130752,groceries,Grocery shopping,debit,checking
+2025-09-15 16:19:20.198497,-40.319037015231686,dining,Dining out,debit,checking
+2025-09-17 16:19:20.198497,-42.28282478390101,dining,Dining out,debit,checking
+2025-09-17 16:19:20.198497,-38.0081119157627,fuel,Gas,debit,checking
+2025-09-17 16:19:20.198497,-49.30397265406586,dining,Dining out,debit,checking
+2025-09-18 16:19:20.198497,-57.333149362947935,fuel,Gas,debit,checking
+2025-09-19 16:19:20.198497,-54.364890212578075,fuel,Gas,debit,checking
+2025-09-21 16:19:20.198497,-100.36456152405563,shopping,Shopping,debit,checking
+2025-09-22 16:19:20.198497,2250.0,income,Salary deposit,credit,checking
+2025-09-22 16:19:20.198497,-145.48119613003564,groceries,Grocery shopping,debit,checking
+2025-09-22 16:19:20.198497,-36.58272726645918,fuel,Gas,debit,checking
+2025-09-22 16:19:20.198497,-44.1924024354321,fuel,Gas,debit,checking
+2025-09-24 16:19:20.198497,2250.0,income,Salary deposit,credit,checking
+2025-09-24 16:19:20.198497,-48.168704601633486,dining,Dining out,debit,checking
+2025-09-24 16:19:20.198497,-23.925381606316588,dining,Dining out,debit,checking
+2025-09-25 16:19:20.198497,-1200.0,rent,Monthly rent,debit,checking
+2025-09-26 16:19:20.198497,-38.78280985902343,fuel,Gas,debit,checking
+2025-09-28 16:19:20.198497,-32.03811234467925,dining,Dining out,debit,checking
+2025-09-29 16:19:20.198497,-350.0,loan_payment,Car loan,debit,checking
+2025-09-29 16:19:20.198497,-128.91677189314635,groceries,Grocery shopping,debit,checking
+2025-10-01 16:19:20.198497,-63.59013525024754,fuel,Gas,debit,checking
+2025-10-01 16:19:20.198497,-46.88699327610233,utilities,Water,debit,checking
+2025-10-04 16:19:20.198497,-432.3360090567196,credit_card_payment,Credit card payment,debit,checking
+2025-10-04 16:19:20.198497,-29.61750444201922,dining,Dining out,debit,checking
+2025-10-04 16:19:20.198497,-60.13019007517287,fuel,Gas,debit,checking
+2025-10-04 16:19:20.198497,-94.45368229814358,utilities,Electricity,debit,checking
+2025-10-05 16:19:20.198497,-46.32775479960906,dining,Dining out,debit,checking
+2025-10-06 16:19:20.198497,-132.99071707103417,groceries,Grocery shopping,debit,checking
+2025-10-08 16:19:20.198497,-65.55521346093265,utilities,Internet,debit,checking
+2025-10-09 16:19:20.198497,-120.0,insurance,Car insurance,debit,checking
+2025-10-09 16:19:20.198497,-21.050151819765876,dining,Dining out,debit,checking
+2025-10-10 16:19:20.198497,-61.40289051763677,fuel,Gas,debit,checking
+2025-10-10 16:19:20.198497,-51.04849980542481,shopping,Shopping,debit,checking
+2025-10-11 16:19:20.198497,-56.89539952640048,dining,Dining out,debit,checking
+2025-10-12 16:19:20.198497,-49.020247093225706,fuel,Gas,debit,checking
+2025-10-13 16:19:20.198497,-130.86188504293358,groceries,Grocery shopping,debit,checking
+2025-10-14 16:19:20.198497,-39.88467201738682,fuel,Gas,debit,checking
+2025-10-14 16:19:20.198497,-40.87782025713437,fuel,Gas,debit,checking
+2025-10-14 16:19:20.198497,-16.50266224351366,dining,Dining out,debit,checking
+2025-10-14 16:19:20.198497,-101.40394109956468,shopping,Shopping,debit,checking
+2025-10-15 16:19:20.198497,-32.979684430636496,dining,Dining out,debit,checking
+2025-10-15 16:19:20.198497,-39.80620389188189,shopping,Shopping,debit,checking
+2025-10-16 16:19:20.198497,-36.30337663781309,fuel,Gas,debit,checking
+2025-10-17 16:19:20.198497,-27.386938153946943,dining,Dining out,debit,checking
+2025-10-20 16:19:20.198497,-120.76389822313374,groceries,Grocery shopping,debit,checking
+2025-10-20 16:19:20.198497,-15.814911483258332,dining,Dining out,debit,checking
+2025-10-21 16:19:20.198497,-66.59781548520533,shopping,Shopping,debit,checking
+2025-10-22 16:19:20.198497,2250.0,income,Salary deposit,credit,checking
+2025-10-22 16:19:20.198497,-41.09595917976335,fuel,Gas,debit,checking
+2025-10-24 16:19:20.198497,2250.0,income,Salary deposit,credit,checking
+2025-10-24 16:19:20.198497,-57.59545102059228,dining,Dining out,debit,checking
+2025-10-24 16:19:20.198497,-36.8405766009854,fuel,Gas,debit,checking
+2025-10-24 16:19:20.198497,-46.65531734972889,dining,Dining out,debit,checking
+2025-10-25 16:19:20.198497,-1200.0,rent,Monthly rent,debit,checking
+2025-10-26 16:19:20.198497,-44.997707686308104,fuel,Gas,debit,checking
+2025-10-27 16:19:20.198497,-99.25043852377603,groceries,Grocery shopping,debit,checking
+2025-10-28 16:19:20.198497,-94.26743781920528,shopping,Shopping,debit,checking
+2025-10-29 16:19:20.198497,-350.0,loan_payment,Car loan,debit,checking
+2025-10-29 16:19:20.198497,-164.6539175865935,shopping,Shopping,debit,checking
+2025-10-30 16:19:20.198497,-39.73780651384346,fuel,Gas,debit,checking
+2025-11-01 16:19:20.198497,-64.84729528325214,fuel,Gas,debit,checking
+2025-11-01 16:19:20.198497,-24.26036608239619,dining,Dining out,debit,checking
+2025-11-01 16:19:20.198497,-138.8016119987863,utilities,Electricity,debit,checking
+2025-11-02 16:19:20.198497,-16.536208129507195,dining,Dining out,debit,checking
+2025-11-03 16:19:20.198497,-445.8594261340985,credit_card_payment,Credit card payment,debit,checking
+2025-11-03 16:19:20.198497,-101.1313411893027,groceries,Grocery shopping,debit,checking
+2025-11-04 16:19:20.198497,-29.09336654067443,dining,Dining out,debit,checking
+2025-11-04 16:19:20.198497,-42.49109780396218,utilities,Water,debit,checking
+2025-11-06 16:19:20.198497,-44.45750897917516,dining,Dining out,debit,checking
+2025-11-06 16:19:20.198497,-62.2093737844803,fuel,Gas,debit,checking
+2025-11-06 16:19:20.198497,-60.21004277613402,utilities,Internet,debit,checking
+2025-11-07 16:19:20.198497,-52.051340958570705,fuel,Gas,debit,checking
+2025-11-08 16:19:20.198497,-120.0,insurance,Car insurance,debit,checking
+2025-11-08 16:19:20.198497,-62.360749680728276,fuel,Gas,debit,checking
+2025-11-09 16:19:20.198497,-36.255537220716995,dining,Dining out,debit,checking
+2025-11-10 16:19:20.198497,-86.18973503849098,groceries,Grocery shopping,debit,checking
+2025-11-10 16:19:20.198497,-38.27097144926475,dining,Dining out,debit,checking
+2025-11-11 16:19:20.198497,-56.495100399366926,fuel,Gas,debit,checking
+2025-11-12 16:19:20.198497,-59.83691100994403,fuel,Gas,debit,checking
+2025-11-14 16:19:20.198497,-53.094715549679336,dining,Dining out,debit,checking
+2025-11-14 16:19:20.198497,-52.618529740487745,shopping,Shopping,debit,checking
+2025-11-15 16:19:20.198497,-18.18859501303298,dining,Dining out,debit,checking
+2025-11-16 16:19:20.198497,-59.13164145680196,fuel,Gas,debit,checking
+2025-11-17 16:19:20.198497,-89.48980487045053,groceries,Grocery shopping,debit,checking
+2025-11-17 16:19:20.198497,-54.26258808382401,dining,Dining out,debit,checking
+2025-11-17 16:19:20.198497,-51.73323724995558,fuel,Gas,debit,checking
+2025-11-18 16:19:20.198497,-53.99700920537791,fuel,Gas,debit,checking
+2025-11-20 16:19:20.198497,-62.52961669801299,fuel,Gas,debit,checking
+2025-11-20 16:19:20.198497,-42.69242469245211,dining,Dining out,debit,checking
+2025-11-21 16:19:20.198497,2250.0,income,Salary deposit,credit,checking
+2025-11-23 16:19:20.198497,2250.0,income,Salary deposit,credit,checking
+2025-11-23 16:19:20.198497,-45.129370980668554,dining,Dining out,debit,checking
+2025-11-24 16:19:20.198497,-1200.0,rent,Monthly rent,debit,checking
+2025-11-24 16:19:20.198497,-119.77153346536431,groceries,Grocery shopping,debit,checking
+2025-11-24 16:19:20.198497,-34.002241474038314,dining,Dining out,debit,checking
+2025-11-25 16:19:20.198497,-44.69151233110132,fuel,Gas,debit,checking
+2025-11-26 16:19:20.198497,-58.7741193771008,fuel,Gas,debit,checking
+2025-11-27 16:19:20.198497,-22.774320881065538,dining,Dining out,debit,checking
+2025-11-28 16:19:20.198497,-350.0,loan_payment,Car loan,debit,checking
+2025-11-29 16:19:20.198497,-40.85479142008925,utilities,Water,debit,checking
+2025-12-01 16:19:20.198497,-148.83447243924468,groceries,Grocery shopping,debit,checking
+2025-12-01 16:19:20.198497,-38.350390250206445,dining,Dining out,debit,checking
+2025-12-01 16:19:20.198497,-33.545331672152244,dining,Dining out,debit,checking
+2025-12-01 16:19:20.198497,-143.9492903262647,utilities,Electricity,debit,checking
+2025-12-01 16:19:20.198497,-137.5230470333444,shopping,Shopping,debit,checking
+2025-12-03 16:19:20.198497,-367.86523929732584,credit_card_payment,Credit card payment,debit,checking
+2025-12-07 16:19:20.198497,-37.20517971553463,fuel,Gas,debit,checking
+2025-12-07 16:19:20.198497,-55.45737145045348,fuel,Gas,debit,checking
+2025-12-08 16:19:20.198497,-120.0,insurance,Car insurance,debit,checking
+2025-12-08 16:19:20.198497,-95.84404273939707,groceries,Grocery shopping,debit,checking
+2025-12-08 16:19:20.198497,-75.09442610748584,utilities,Internet,debit,checking
+2025-12-09 16:19:20.198497,-42.51137282260511,fuel,Gas,debit,checking
+2025-12-10 16:19:20.198497,-45.31240284818733,dining,Dining out,debit,checking
+2025-12-12 16:19:20.198497,-19.087987069338155,dining,Dining out,debit,checking
+2025-12-13 16:19:20.198497,-167.62642244532321,shopping,Shopping,debit,checking
+2025-12-14 16:19:20.198497,-39.88070462668663,fuel,Gas,debit,checking
+2025-12-14 16:19:20.198497,-40.86040789765029,fuel,Gas,debit,checking
+2025-12-14 16:19:20.198497,-17.04459181883144,dining,Dining out,debit,checking
+2025-12-15 16:19:20.198497,-132.36666764577677,groceries,Grocery shopping,debit,checking
+2025-12-15 16:19:20.198497,-45.60721292825957,fuel,Gas,debit,checking
+2025-12-16 16:19:20.198497,-25.694115288647012,dining,Dining out,debit,checking
+2025-12-17 16:19:20.198497,-16.966057584782238,dining,Dining out,debit,checking
+2025-12-18 16:19:20.198497,-50.694039141142746,dining,Dining out,debit,checking
+2025-12-18 16:19:20.198497,-273.88268959497515,car_service,Car maintenance,debit,checking
+2025-12-19 16:19:20.198497,-40.80535522896227,fuel,Gas,debit,checking
+2025-12-21 16:19:20.198497,2250.0,income,Salary deposit,credit,checking
+2025-12-21 16:19:20.198497,-57.5137053536885,fuel,Gas,debit,checking
+2025-12-22 16:19:20.198497,-125.18215611161112,groceries,Grocery shopping,debit,checking
+2025-12-22 16:19:20.198497,-57.88347295324701,fuel,Gas,debit,checking
+2025-12-22 16:19:20.198497,-62.152791226351404,fuel,Gas,debit,checking
+2025-12-22 16:19:20.198497,-146.37158956495213,shopping,Shopping,debit,checking
+2025-12-22 16:19:20.198497,-142.2170308115594,shopping,Shopping,debit,checking
+2025-12-23 16:19:20.198497,2250.0,income,Salary deposit,credit,checking
+2025-12-23 16:19:20.198497,-61.67705367862765,fuel,Gas,debit,checking
+2025-12-23 16:19:20.198497,-51.14755803967908,dining,Dining out,debit,checking
+2025-12-23 16:19:20.198497,-51.58092650641008,dining,Dining out,debit,checking
+2025-12-24 16:19:20.198497,-1200.0,rent,Monthly rent,debit,checking
+2025-12-27 16:19:20.198497,-18.949247579833262,dining,Dining out,debit,checking
+2025-12-28 16:19:20.198497,-350.0,loan_payment,Car loan,debit,checking
+2025-12-29 16:19:20.198497,-83.6678989828098,groceries,Grocery shopping,debit,checking
+2025-12-29 16:19:20.198497,-36.199032362228536,dining,Dining out,debit,checking
+2025-12-30 16:19:20.198497,-38.79407421347391,fuel,Gas,debit,checking
+2025-12-31 16:19:20.198497,-51.42310901092934,fuel,Gas,debit,checking
+2026-01-02 16:19:20.198497,-282.27118746367296,credit_card_payment,Credit card payment,debit,checking
+2026-01-02 16:19:20.198497,-119.33747070017068,utilities,Electricity,debit,checking
+2026-01-02 16:19:20.198497,-52.233477517347595,utilities,Water,debit,checking
+2026-01-03 16:19:20.198497,-78.56082351670346,utilities,Internet,debit,checking
+2026-01-03 16:19:20.198497,-161.4031963057095,shopping,Shopping,debit,checking
+2026-01-03 16:19:20.198497,-187.5839054739323,shopping,Shopping,debit,checking
+2026-01-04 16:19:20.198497,-35.9992565197983,dining,Dining out,debit,checking
+2026-01-05 16:19:20.198497,-83.46073858681085,groceries,Grocery shopping,debit,checking
+2026-01-05 16:19:20.198497,-51.55921077972311,fuel,Gas,debit,checking
+2026-01-05 16:19:20.198497,-45.79914015588152,dining,Dining out,debit,checking
+2026-01-05 16:19:20.198497,-49.043340338190504,dining,Dining out,debit,checking
+2026-01-06 16:19:20.198497,-45.97705079374568,fuel,Gas,debit,checking
+2026-01-07 16:19:20.198497,-120.0,insurance,Car insurance,debit,checking
+2026-01-12 16:19:20.198497,-102.76107647235324,groceries,Grocery shopping,debit,checking
+2026-01-15 16:19:20.198497,-63.80202750594472,fuel,Gas,debit,checking
+2026-01-15 16:19:20.198497,-27.61923463966655,dining,Dining out,debit,checking
+2026-01-15 16:19:20.198497,-46.573347047930625,dining,Dining out,debit,checking
+2026-01-17 16:19:20.198497,-47.60893926018977,fuel,Gas,debit,checking
+2026-01-17 16:19:20.198497,-54.73229965225963,dining,Dining out,debit,checking
+2026-01-17 16:19:20.198497,-41.242883436159104,fuel,Gas,debit,checking
+2026-01-19 16:19:20.198497,-130.97051350112292,groceries,Grocery shopping,debit,checking
+2026-01-19 16:19:20.198497,-59.51153033207787,fuel,Gas,debit,checking
+2026-01-19 16:19:20.198497,-45.93563747916417,dining,Dining out,debit,checking
+2026-01-19 16:19:20.198497,-131.90659948791662,shopping,Shopping,debit,checking
+2026-01-20 16:19:20.198497,2250.0,income,Salary deposit,credit,checking
+2026-01-20 16:19:20.198497,-53.58437248373028,dining,Dining out,debit,checking
+2026-01-21 16:19:20.198497,-37.383907389736564,dining,Dining out,debit,checking
+2026-01-22 16:19:20.198497,2250.0,income,Salary deposit,credit,checking
+2026-01-22 16:19:20.198497,-37.51239885426472,fuel,Gas,debit,checking
+2026-01-22 16:19:20.198497,-163.2698455702387,shopping,Shopping,debit,checking
+2026-01-23 16:19:20.198497,-1200.0,rent,Monthly rent,debit,checking
+2026-01-24 16:19:20.198497,-63.42568393757142,fuel,Gas,debit,checking
+2026-01-26 16:19:20.198497,-111.01973045572956,groceries,Grocery shopping,debit,checking
+2026-01-26 16:19:20.198497,-43.66409018208891,fuel,Gas,debit,checking
+2026-01-26 16:19:20.198497,-64.8229710442548,fuel,Gas,debit,checking
+2026-01-26 16:19:20.198497,-63.64470870169003,shopping,Shopping,debit,checking
+2026-01-27 16:19:20.198497,-350.0,loan_payment,Car loan,debit,checking
+2026-01-27 16:19:20.198497,-62.296294435010054,fuel,Gas,debit,checking
+2026-01-28 16:19:20.198497,-31.49664151396891,dining,Dining out,debit,checking
+2026-01-29 16:19:20.198497,-23.337115090982508,dining,Dining out,debit,checking
+2026-01-30 16:19:20.198497,-149.46699903577934,utilities,Electricity,debit,checking
+2026-01-31 16:19:20.198497,-56.241927781684375,dining,Dining out,debit,checking
+2026-01-31 16:19:20.198497,-67.0698808805418,utilities,Internet,debit,checking
+2026-02-01 16:19:20.198497,-420.9739357032007,credit_card_payment,Credit card payment,debit,checking
+2026-02-01 16:19:20.198497,-50.57478193876002,utilities,Water,debit,checking
+2026-02-02 16:19:20.198497,-96.76554198333042,groceries,Grocery shopping,debit,checking
+2026-02-04 16:19:20.198497,-21.538097317081544,dining,Dining out,debit,checking
+2026-02-04 16:19:20.198497,-38.58029220152661,dining,Dining out,debit,checking
+2026-02-06 16:19:20.198497,-120.0,insurance,Car insurance,debit,checking
+2026-02-08 16:19:20.198497,-36.80547662782734,fuel,Gas,debit,checking
+2026-02-08 16:19:20.198497,-44.05864709114975,fuel,Gas,debit,checking
+2026-02-08 16:19:20.198497,-40.77592595791651,fuel,Gas,debit,checking
+2026-02-08 16:19:20.198497,-45.05067392604507,dining,Dining out,debit,checking
+2026-02-09 16:19:20.198497,-140.11350600181044,groceries,Grocery shopping,debit,checking
+2026-02-09 16:19:20.198497,-47.147364938292384,fuel,Gas,debit,checking
+2026-02-12 16:19:20.198497,-36.267796310879326,fuel,Gas,debit,checking
+2026-02-12 16:19:20.198497,-67.24286350527854,shopping,Shopping,debit,checking
+2026-02-13 16:19:20.198497,-49.58059335762831,dining,Dining out,debit,checking
+2026-02-15 16:19:20.198497,-36.587882210283915,dining,Dining out,debit,checking
+2026-02-16 16:19:20.198497,-132.95935219480663,groceries,Grocery shopping,debit,checking
+2026-02-16 16:19:20.198497,-35.863040970337586,dining,Dining out,debit,checking
+2026-02-18 16:19:20.198497,-53.632348256386976,fuel,Gas,debit,checking
+2026-02-19 16:19:20.198497,2250.0,income,Salary deposit,credit,checking
+2026-02-19 16:19:20.198497,-28.296492083772613,dining,Dining out,debit,checking
+2026-02-19 16:19:20.198497,-46.92112261418961,fuel,Gas,debit,checking
+2026-02-20 16:19:20.198497,-50.89273608468386,dining,Dining out,debit,checking
+2026-02-21 16:19:20.198497,-55.668343866928765,fuel,Gas,debit,checking
