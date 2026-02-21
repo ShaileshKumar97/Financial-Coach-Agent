@@ -62,7 +62,7 @@ def run_voice_mode(agent: FinancialCoachAgent):
 
     sys.argv = [sys.argv[0], "start"]
 
-    cli.run_app(WorkerOptions(entrypoint_fnc=entrypoint_fn))
+    cli.run_app(WorkerOptions(entrypoint_fnc=entrypoint_fn, host="0.0.0.0", port=7860))
 
 
 def main():
