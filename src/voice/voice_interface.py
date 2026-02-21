@@ -12,12 +12,13 @@ from livekit.agents import AgentSession
 from livekit.agents import RoomInputOptions
 from livekit.agents.llm import ChatChunk
 from livekit.agents.llm import ChoiceDelta
-from livekit.plugins import cartesia
 from livekit.plugins import deepgram
 from livekit.plugins import noise_cancellation
 from livekit.plugins import openai
 
 from src.agent.financial_coach_agent import FinancialCoachAgent
+
+# from livekit.plugins import cartesia
 
 logger = logging.getLogger(__name__)
 
@@ -46,11 +47,12 @@ async def entrypoint(ctx: agents.JobContext, user_id: str, transactions: list):
         base_url=os.getenv("CEREBRAS_BASE_URL", "https://api.cerebras.ai/v1"),
         max_completion_tokens=450,
     )
-    tts = cartesia.TTS(
-        model="sonic-2",
-        voice=os.getenv("CARTESIA_VOICE_ID", "79a125e8-cd45-4c13-8a67-188112f4dd22"),
-        api_key=os.getenv("CARTESIA_API_KEY"),
-    )
+    tts = deepgram.TTS(model="aura-2-asteria-en")
+    # tts = cartesia.TTS(
+    #     model="sonic-2",
+    #     voice=os.getenv("CARTESIA_VOICE_ID", "79a125e8-cd45-4c13-8a67-188112f4dd22"),
+    #     api_key=os.getenv("CARTESIA_API_KEY"),
+    # )
 
     session = AgentSession(
         llm=llm,
