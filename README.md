@@ -1,3 +1,14 @@
+---
+title: Financial Coach Agent
+emoji: 👀
+colorFrom: blue
+colorTo: purple
+sdk: docker
+app_port: 7860
+pinned: false
+license: mit
+---
+
 # Financial Coach Voice Agent
 
 A voice-first financial coaching assistant. It loads a user's transaction history from a CSV/generate sample data, runs analysis on it, and lets the user have a spoken conversation with an AI coach with actual numbers.
