@@ -58,7 +58,7 @@ def run_voice_mode(agent: FinancialCoachAgent):
         print(f"Error: Missing environment variables: {', '.join(missing)}")
         return
 
-    entrypoint_fn = create_entrypoint(agent)
+    entrypoint_fn = create_entrypoint(agent.user_id, agent.analyzer.transactions)
 
     sys.argv = [sys.argv[0], "start"]
 

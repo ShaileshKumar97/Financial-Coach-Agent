@@ -35,7 +35,8 @@ _DATA_TRIGGER_KEYWORDS = (
 )
 
 
-async def entrypoint(ctx: agents.JobContext, financial_agent: FinancialCoachAgent):
+async def entrypoint(ctx: agents.JobContext, user_id: str, transactions: list):
+    financial_agent = FinancialCoachAgent(user_id, transactions)
     await ctx.connect(auto_subscribe=agents.AutoSubscribe.AUDIO_ONLY)
 
     stt = deepgram.STT(model="nova-2")
@@ -186,5 +187,5 @@ class FinancialCoachVoiceAgent(Agent):
             logger.warning(f"Data card publish failed: {e}")
 
 
-def create_entrypoint(financial_agent: FinancialCoachAgent):
-    return partial(entrypoint, financial_agent=financial_agent)
+def create_entrypoint(user_id: str, transactions: list):
+    return partial(entrypoint, user_id=user_id, transactions=transactions)
