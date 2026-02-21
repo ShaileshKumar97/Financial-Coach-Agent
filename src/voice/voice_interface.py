@@ -3,6 +3,7 @@ import json
 import logging
 import os
 import uuid
+from functools import partial
 
 from livekit import agents
 from livekit import rtc
@@ -32,6 +33,40 @@ _DATA_TRIGGER_KEYWORDS = (
     "details",
     "what should",
 )
+
+
+async def entrypoint(ctx: agents.JobContext, financial_agent: FinancialCoachAgent):
+    await ctx.connect(auto_subscribe=agents.AutoSubscribe.AUDIO_ONLY)
+
+    stt = deepgram.STT(model="nova-2")
+    llm = openai.LLM(
+        model="gpt-oss-120b",
+        api_key=os.getenv("CEREBRAS_API_KEY"),
+        base_url=os.getenv("CEREBRAS_BASE_URL", "https://api.cerebras.ai/v1"),
+        max_completion_tokens=450,
+    )
+    tts = cartesia.TTS(
+        model="sonic-2",
+        voice=os.getenv("CARTESIA_VOICE_ID", "79a125e8-cd45-4c13-8a67-188112f4dd22"),
+        api_key=os.getenv("CARTESIA_API_KEY"),
+    )
+
+    session = AgentSession(
+        llm=llm,
+        stt=stt,
+        tts=tts,
+        resume_false_interruption=True,
+        false_interruption_timeout=1.0,
+    )
+
+    agent = FinancialCoachVoiceAgent(financial_agent, ctx.room)
+    await session.start(
+        room=ctx.room,
+        agent=agent,
+        room_input_options=RoomInputOptions(
+            noise_cancellation=noise_cancellation.BVC(),
+        ),
+    )
 
 
 class FinancialCoachVoiceAgent(Agent):
@@ -152,39 +187,4 @@ class FinancialCoachVoiceAgent(Agent):
 
 
 def create_entrypoint(financial_agent: FinancialCoachAgent):
-    async def entrypoint(ctx: agents.JobContext):
-        await ctx.connect(auto_subscribe=agents.AutoSubscribe.AUDIO_ONLY)
-
-        stt = deepgram.STT(model="nova-2")
-        llm = openai.LLM(
-            model="gpt-oss-120b",
-            api_key=os.getenv("CEREBRAS_API_KEY"),
-            base_url=os.getenv("CEREBRAS_BASE_URL", "https://api.cerebras.ai/v1"),
-            max_completion_tokens=450,
-        )
-        tts = cartesia.TTS(
-            model="sonic-2",
-            voice=os.getenv(
-                "CARTESIA_VOICE_ID", "79a125e8-cd45-4c13-8a67-188112f4dd22"
-            ),
-            api_key=os.getenv("CARTESIA_API_KEY"),
-        )
-
-        session = AgentSession(
-            llm=llm,
-            stt=stt,
-            tts=tts,
-            resume_false_interruption=True,
-            false_interruption_timeout=1.0,
-        )
-
-        agent = FinancialCoachVoiceAgent(financial_agent, ctx.room)
-        await session.start(
-            room=ctx.room,
-            agent=agent,
-            room_input_options=RoomInputOptions(
-                noise_cancellation=noise_cancellation.BVC(),
-            ),
-        )
-
-    return entrypoint
+    return partial(entrypoint, financial_agent=financial_agent)
